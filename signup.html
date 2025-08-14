@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <img src="./asset/logo1.png" alt="UPSTAR Logo" class="logo">
+      <h1>U P S T A R Transportation</h1>
+      <a href="index.html" class="home-button">Home</a>
+    </div>
+  </header>
+
+  <div class="auth-container">
+    <h2>Signup</h2>
+    <form id="signupForm" class="auth-form">
+      <div class="input-group">
+        <input type="email" id="email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" placeholder="Create password" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+      </div>
+      <button type="submit">Signup</button>
+    </form>
+    <p id="message" style="color: red; margin-top: 10px;"></p>
+    <div class="login-link">
+      Already have an account? <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <!-- JavaScript at the end to ensure DOM is loaded -->
+  <script src="js/signup.js"></script>
+
+</body>
+</html>
